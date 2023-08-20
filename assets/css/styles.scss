@@ -2,7 +2,7 @@
 ---
 horizontal-scroll {
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     white-space: nowrap;
     padding: 10px 0;
     scrollbar-width: thin;
@@ -28,6 +28,7 @@ horizontal-scroll {
   }
   
   .img-container img {
+    flex: 0 0 auto;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
