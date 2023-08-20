@@ -1,7 +1,9 @@
 ---
 ---
 /* Main Font */
-$global-font-family : $serif;
+body {
+  font-family: {{ site.customization.font_family }};
+}
 
 /* Section for Image Gallery */
 div.horizontal-scroll {

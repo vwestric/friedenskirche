@@ -22,6 +22,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: sunrise
+customization: 
+  font_family: "PT Serif", Georgia, Times, serif
+
 search: true
 
 # Build settings
