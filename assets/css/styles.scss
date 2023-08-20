@@ -1,6 +1,6 @@
 ---
 ---
-horizontal-scroll {
+div.horizontal-scroll {
     display: flex;
     overflow-x: scroll;
     white-space: nowrap;
@@ -9,7 +9,7 @@ horizontal-scroll {
     scrollbar-color: rebeccapurple green; /* Change these colors as per your design */
   }
   
-  .horizontal-scroll::-webkit-scrollbar {
+div.horizontal-scroll::-webkit-scrollbar {
     height: 8px;
   }
   
@@ -17,11 +17,11 @@ horizontal-scroll {
     background: green; /* Change this color as per your design */
   }
   
-  .horizontal-scroll::-webkit-scrollbar-thumb {
+div.horizontal-scroll::-webkit-scrollbar-thumb {
     background-color: rebeccapurple; /* Change this color as per your design */
   }
   
-  .img-container {
+div.horizontal-scroll.img-container {
     display: inline-block;
     width: 400px; /* or the width you desire */
     margin-right: 10px;
