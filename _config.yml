@@ -62,7 +62,7 @@ plugins:
 
 author:
   # name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/logo.png"
   # bio    : "My awesome biography constrained to a sentence or two goes here."
   # links:
   #   - label: "Website"
@@ -91,7 +91,7 @@ author:
 #       url: "https://instagram.com/"
 
 defaults:
-  # _posts
+  _posts
   - scope:
       path: ""
       type: posts
@@ -102,7 +102,7 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  _pages
   - scope:
       path: "_pages"
       type: pages
