@@ -21,13 +21,13 @@ div.horizontal-scroll::-webkit-scrollbar-thumb {
     background-color: rebeccapurple; /* Change this color as per your design */
   }
   
-div.horizontal-scroll.img-container {
+div.img-container {
     display: inline-block;
     width: 400px; /* or the width you desire */
     margin-right: 10px;
   }
   
-  .img-container img {
+div.img-container img {
     flex: 0 0 auto;
     max-width: 100%;
     height: auto;
