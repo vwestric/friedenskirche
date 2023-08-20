@@ -1,5 +1,11 @@
 ---
 ---
+/* Broaden Main */
+.main {
+  width: 100% !important;
+  max-width: 100% !important;  // This is important if there's a max-width set.
+  padding: 0 !important;  // If there's any padding pushing the content inward.
+}
 /* Section for Image Gallery */
 div.horizontal-scroll {
     display: flex;
