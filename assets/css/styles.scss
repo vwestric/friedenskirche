@@ -1,0 +1,35 @@
+---
+---
+@import "{{ site.theme }}";
+horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    scrollbar-width: thin;
+    scrollbar-color: rebeccapurple green; /* Change these colors as per your design */
+  }
+  
+  .horizontal-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .horizontal-scroll::-webkit-scrollbar-track {
+    background: green; /* Change this color as per your design */
+  }
+  
+  .horizontal-scroll::-webkit-scrollbar-thumb {
+    background-color: rebeccapurple; /* Change this color as per your design */
+  }
+  
+  .img-container {
+    display: inline-block;
+    width: 300px; /* or the width you desire */
+    margin-right: 10px;
+  }
+  
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
