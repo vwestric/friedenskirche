@@ -28,6 +28,7 @@ div.img-container {
   
 div.img-container img {
     flex: 0 0 auto;
+    flex-shrink: 0;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
