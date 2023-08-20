@@ -2,28 +2,16 @@
 <script src="{{ "/assets/js/accordion.js" | relative_url }}"></script>
 <!--HTML-->
 <div class="accordion">
+    {% for item in page.faq %}
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button" type="button">
-          Headline 1
+        {{ item.question }}
         </button>
       </h2>
       <div class="accordion-content">
-        <p>Description text for headline 1.</p>
+        <p>{{ item.answer }}</p>
       </div>
     </div>
-  
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button" type="button">
-          Headline 2
-        </button>
-      </h2>
-      <div class="accordion-content">
-        <p>Description text for headline 2.</p>
-      </div>
-
-    </div>
-    <!-- Add more accordion items as needed -->
+    {% endfor %}
   </div>
-  
