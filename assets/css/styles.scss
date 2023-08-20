@@ -22,7 +22,7 @@ div.horizontal-scroll::-webkit-scrollbar-thumb {
   }
   
 div.img-container {
-    display: inline-block;
+    display: flex;
     width: 700px; /* or the width you desire */
     margin-right: 10px;
   }
