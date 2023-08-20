@@ -24,10 +24,12 @@ div.horizontal-scroll::-webkit-scrollbar-thumb {
 div.img-container {
     width: 700px; /* or the width you desire */
     margin-right: 10px;
+    flex-shrink: 0;
   }
   
 div.img-container img {
     flex: 0 0 auto;
+    max-width: 100%;
     height: auto;
     vertical-align: middle;
   }
