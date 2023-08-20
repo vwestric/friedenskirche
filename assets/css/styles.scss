@@ -1,5 +1,6 @@
 ---
 ---
+/* Section for Image Gallery */
 div.horizontal-scroll {
     display: flex;
     overflow-x: scroll;
@@ -27,9 +28,29 @@ div.img-container {
     flex-shrink: 0;
   }
   
+/* Section for Accordion FAQs */
 div.img-container img {
     flex: 0 0 auto;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
+  }
+
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .accordion-header .accordion-button {
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: background 0.2s;
+  }
+  
+  .accordion-header .accordion-button:hover {
+    background-color: #f0f0f0;
   }
