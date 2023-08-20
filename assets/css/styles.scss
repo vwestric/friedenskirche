@@ -28,7 +28,7 @@ div.img-container {
     flex-shrink: 0;
   }
   
-/* Section for Accordion FAQs */
+
 div.img-container img {
     flex: 0 0 auto;
     max-width: 100%;
@@ -36,6 +36,7 @@ div.img-container img {
     vertical-align: middle;
   }
 
+  /* Section for Accordion FAQs */
   .accordion-content {
     max-height: 0;
     overflow: hidden;
@@ -43,6 +44,7 @@ div.img-container img {
   }
   
   .accordion-header .accordion-button {
+    background-color: {{ site.background_color }};
     cursor: pointer;
     text-align: left;
     width: 100%;
