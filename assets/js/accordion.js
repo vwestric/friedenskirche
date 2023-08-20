@@ -3,10 +3,12 @@ document.addEventListener("DOMContentLoaded", function() {
     for (var i = 0; i < acc.length; i++) {
       acc[i].addEventListener("click", function() {
         var content = this.nextElementSibling;
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+        if (content) {
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
         }
       });
     }
