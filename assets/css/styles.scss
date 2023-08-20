@@ -20,6 +20,24 @@ button {
   font-family: {{ site.customization.font_family }};
 }
 
+/* Image Styling */
+.img-float-left {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.img-float-right {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
 /* Section for Image Gallery */
 div.horizontal-scroll {
     display: flex;
