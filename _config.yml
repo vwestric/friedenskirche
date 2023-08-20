@@ -23,7 +23,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: sunrise
 customization:
-  font_family: PT Serif, Georgia, Times, serif
+  font_family: PT Serif, Georgia, Times, serif !important
 
 search: true
 

@@ -2,7 +2,7 @@
 ---
 /* Main Font */
 html {
-  font-family: {{ site.customization.font_family }} !important;
+  font-family: {{ site.customization.font_family }};
 }
 
 /* Section for Image Gallery */
