@@ -145,3 +145,12 @@ p {
   gap: 20px;  /* space between images */
   justify-content: center;  /* center the images if they don't take the full width */
 }
+
+.image-container {
+  margin-bottom: 20px; /* space between each image-container */
+}
+
+.image-container h3 {
+  text-align: center;  /* center align the headline */
+  margin-top: 10px;    /* space between the image and the headline */
+}

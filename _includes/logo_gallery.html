@@ -1,7 +1,9 @@
 <div class="logo-gallery">
     {% for image in page.logo_gallery %}
-      <img src="{{ image.filepath | relative_url }}" alt="{{ image.alt_text }}" class="round-image">
-      <h2>{{ image.alt_text }}</h2>
+    <div class="image-container">
+      <img src="{{ image.filepath }}" alt="{{ image.alt_text }}" class="round-image">
+      <h3>{{ image.alt_text }}</h3>
+    </div>
     {% endfor %}
 </div>
     
