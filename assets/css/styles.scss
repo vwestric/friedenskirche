@@ -89,3 +89,44 @@ div.img-container img {
     text-align: justify;
   }
   
+  /* Section for Circle Gallery */
+  .circle-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.circle-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%; /* controls the distance of images from the center */
+    height: 50%;
+    transform: rotate(var(--rotate-angle)) translateY(-50%) rotate(calc(var(--rotate-angle) * -1));
+    text-align: center;
+}
+
+.circle-item img {
+    display: block;
+    width: 50px; /* adjust the size as needed */
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.circle-item p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
