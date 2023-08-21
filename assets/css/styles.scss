@@ -25,12 +25,16 @@ button {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
+  width: 25%;
+  height: 25%;
 }
 
 .img-float-right {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
+  width: 25%;
+  height: 25%;
 }
 
 .clearfix {
@@ -98,7 +102,10 @@ div.img-container img {
   /* Section for Fly-In Text */
   p {
     margin: 50px 0;
-    text-align: justify;
 
+  }
+
+  .text-justify {
+    text-align: justify;
   }
   
