@@ -92,8 +92,8 @@ div.img-container img {
   /* Section for Circle Gallery */
   .circle-container {
     position: relative;
-    width: 1300px;
-    height: 1300px;
+    width: 1400px;
+    height: 1400px;
     /* border: 1px solid #ddd; */
     border-radius: 50%;
     overflow: hidden;
@@ -112,8 +112,8 @@ div.img-container img {
     position: absolute;
     top: 50%;
     left: 10%;
-    width: 70%; /* controls the distance of images from the center */
-    height: 70%;
+    width: 80%; /* controls the distance of images from the center */
+    height: 80%;
     transform: rotate(var(--rotate-angle)) translateY(-50%) rotate(calc(var(--rotate-angle) * -1));
     text-align: center;
 }
