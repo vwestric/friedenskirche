@@ -111,7 +111,7 @@ div.img-container img {
 .circle-item {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 0%;
     width: 100%; /* controls the distance of images from the center */
     height: 100%;
     transform: rotate(var(--rotate-angle)) translateY(-50%) rotate(calc(var(--rotate-angle) * -1));
