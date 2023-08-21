@@ -36,10 +36,21 @@ circle_items:
 circle_text: |
   Lorem ipsum dolor sit amet, 
   consetetur sadipscing elitr
+logo_gallery:
+  - filename: gemeinde.gif
+    alt_text: 'Gemeinde'
+  - filename: kiga.gif
+    alt_text: 'Kindergarten'
+  - filename: krankenpfelge.gif
+    alt_text: 'Krankenpflege'
+  - filename: foerderkreis.gif
+    alt_text: 'Förderkreis'
+
 ---
 <!--Include Custom CSS-->
 <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
 {% include gallery.html %}
 {% include circle.html %}
+{% include logo_gallery.html %}
 {% include flyins.html %}
 {% include accordion.html %}

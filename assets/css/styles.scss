@@ -21,7 +21,6 @@ div.img-float-right img {
   clear: both;
 }
 
-
 /* Section for Image Gallery */
 div.horizontal-scroll {
     display: flex;
@@ -58,45 +57,45 @@ div.img-container img {
     vertical-align: middle;
   }
 
-  /* Section for Accordion FAQs */
-  .accordion-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  
-  .accordion-header .accordion-button {
-    background-color: #e8d5b7;
-    cursor: pointer;
-    text-align: left;
-    width: 100%;
-    border: none;
-    outline: none;
-    transition: background 0.2s;
-  }
-  
-  .accordion-header .accordion-button:hover {
-    background-color: #e8d5b7;
-  }
+/* Section for Accordion FAQs */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
 
-  /* Section for Fly-In Text */
-  p {
-    margin: 50px 0;
+.accordion-header .accordion-button {
+  background-color: #e8d5b7;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: background 0.2s;
+}
 
-  }
+.accordion-header .accordion-button:hover {
+  background-color: #e8d5b7;
+}
 
-  .text-justify {
-    text-align: justify;
-  }
-  
-  /* Section for Circle Gallery */
-  .circle-container {
-    position: relative;
-    width: 1300px;
-    height: 1300px;
-    /* border: 1px solid #ddd; */
-    border-radius: 50%;
-    overflow: hidden;
+/* Section for Fly-In Text */
+p {
+  margin: 50px 0;
+
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Section for Circle Gallery */
+.circle-container {
+  position: relative;
+  width: 1300px;
+  height: 1300px;
+  /* border: 1px solid #ddd; */
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .center-text {
@@ -129,4 +128,20 @@ div.img-container img {
 .circle-item p {
     margin-top: 10px;
     font-size: 0.9em;
+}
+
+/* Section for Logo Gallery */
+.round-image {
+  border-radius: 50%;      /* This makes the image round */
+  overflow: hidden;        /* Ensures that nothing spills out of the round shape */
+  width: 150px;            /* Change as per your desired size */
+  height: 150px;           /* Should be the same as width to ensure roundness */
+  object-fit: cover;       /* Ensures the image covers the container properly */
+}
+
+.logo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;  /* space between images */
+  justify-content: center;  /* center the images if they don't take the full width */
 }
