@@ -134,8 +134,8 @@ p {
 .round-image {
   border-radius: 50%;      /* This makes the image round */
   overflow: hidden;        /* Ensures that nothing spills out of the round shape */
-  width: 150px;            /* Change as per your desired size */
-  height: 150px;           /* Should be the same as width to ensure roundness */
+  width: 250px;            /* Change as per your desired size */
+  height: 250px;           /* Should be the same as width to ensure roundness */
   object-fit: cover;       /* Ensures the image covers the container properly */
 }
 
@@ -147,7 +147,7 @@ p {
 }
 
 .image-container {
-  margin-bottom: 20px; /* space between each image-container */
+  margin-bottom: 40px; /* space between each image-container */
 }
 
 .image-container h3 {
