@@ -1,8 +1,10 @@
 <div class="logo-gallery">
     {% for image in page.logo_gallery %}
     <div class="image-container">
+      <a href="{{ item.url }}">
       <img src="{{ image.filepath | relative_url }}" alt="{{ image.alt_text }}" class="round-image">
       <h3>{{ image.alt_text }}</h3>
+      </a>
     </div>
     {% endfor %}
 </div>
