@@ -3,9 +3,9 @@
         sed diam nonumy eirmod tempor invidunt ut labore et dolore
         magna aliquyam erat, sed diam voluptua. 
         At vero eos et accusam et justo duo dolores et ea rebum.</div>
-    {% for item in page.circle_items %}
-    <div class="circle-item" style="--rotate-angle:0deg;">
-        <img src="{{ "/assets/images/bio-photo.jpg" | relative_url }}" alt="{{ item }}">
+    {% for rotation_angle in page.circle_items %}
+    <div class="circle-item" style="{{ rotation_angle }}">
+        <img src="{{ "/assets/images/bio-photo.jpg" | relative_url }}" alt="Description">
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
     </div>
     {% endfor %}
