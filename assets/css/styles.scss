@@ -1,25 +1,5 @@
 ---
 ---
-/* Main Font */
-body {
-  font-family: {{ site.customization.font_family }};
-}
-
-/* Headlines Font */
-h1, h2, h3, h4, h5, h6 {
-  font-family: {{ site.customization.font_family }};
-}
-
-/* Menu */
-.masthead__inner-wrap {
-  font-family: {{ site.customization.font_family }};
-}
-
-/* Button */
-button {
-  font-family: {{ site.customization.font_family }};
-}
-
 /* Image Styling */
 div.img-float-left img {
   float: left;
