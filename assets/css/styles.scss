@@ -92,9 +92,9 @@ div.img-container img {
   /* Section for Circle Gallery */
   .circle-container {
     position: relative;
-    width: 1200px;
-    height: 1200px;
-    border: 1px solid #ddd;
+    width: 1300px;
+    height: 1300px;
+    /* border: 1px solid #ddd; */
     border-radius: 50%;
     overflow: hidden;
 }
@@ -120,8 +120,8 @@ div.img-container img {
 
 .circle-item img {
     display: block;
-    width: 50px; /* adjust the size as needed */
-    height: 50px;
+    width: 75px; /* adjust the size as needed */
+    height: 75px;
     border-radius: 50%;
     margin: 0 auto;
 }
