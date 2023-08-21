@@ -6,7 +6,7 @@
     {% for rotation_angle in page.circle_items %}
     <div class="circle-item" style="{{ rotation_angle }}">
         <img src="{{ "/assets/images/bio-photo.jpg" | relative_url }}" alt="Description">
-        <p><p>{{ page.circle_text | newline_to_br }}</p></p>
+        <p>{{ page.circle_text | newline_to_br }}</p>
     </div>
     {% endfor %}
 </div>
