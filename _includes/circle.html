@@ -6,7 +6,7 @@
     {% for rotation_angle in page.circle_items %}
     <div class="circle-item" style="{{ rotation_angle }}">
         <img src="{{ "/assets/images/bio-photo.jpg" | relative_url }}" alt="Description">
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+        <p>{{ page.circle_description }}</p>
     </div>
     {% endfor %}
 </div>
