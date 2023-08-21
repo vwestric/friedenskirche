@@ -142,7 +142,7 @@ p {
 .logo-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;  /* space between images */
+  gap: 100px;  /* space between images */
   justify-content: center;  /* center the images if they don't take the full width */
 }
 
