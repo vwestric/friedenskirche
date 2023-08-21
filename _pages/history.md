@@ -3,6 +3,9 @@ permalink: /history/
 title: "Geschichte"
 classes: wide
 ---
+<!--Include Custom CSS-->
+<link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+
 <p class="text-justify">
 Schon 1924 waren aufgrund der zunehmenden Zahl an Protestanten im Neubaugebiet zwischen der Pfarrei II (Apostelkirche, Ludwigshafen-HemshAlte Friedenskircheof) und der Pfarrei III (Pauluskirche, Ludwigshafen-Friesenheim) erste Überlegungen angestellt worden, eine Kirche im Stadtteil Lu-Nord zu errichten. Als geeignet für den geplanten Kirchenbau wurde der Schnittpunkt von der Fichte- und Rupprechtstraße (heute Leuschnerstraße) angesehen, da damit eine städtebauliche Achse vom Eingang des Ebertparks, der 1925 eröffnet wurde, und dem geplanten Kircheneingang entstehen konnte. 
 </p>
