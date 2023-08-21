@@ -1,0 +1,13 @@
+{% assign my_array = "element1, element2, element3, element4, element5, element6, element7, element8" | split: ", " %}
+<div class="circle-container">
+    <div class="center-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+        magna aliquyam erat, sed diam voluptua. 
+        At vero eos et accusam et justo duo dolores et ea rebum.</div>
+    {% for item in my_array %}
+    <div class="circle-item" style="--rotate-angle:0deg;">
+        <img src="{{ "/assets/images/bio-photo.jpg" | relative_url }}" alt="{{ item }}">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+    </div>
+    {% endfor %}
+</div>
