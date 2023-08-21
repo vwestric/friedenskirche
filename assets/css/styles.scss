@@ -112,7 +112,7 @@ div.img-container img {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%; /* controls the distance of images from the center */
+    width: 0%; /* controls the distance of images from the center */
     height: 50%;
     transform: rotate(var(--rotate-angle)) translateY(-50%) rotate(calc(var(--rotate-angle) * -1));
     text-align: center;
