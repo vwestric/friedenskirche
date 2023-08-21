@@ -90,10 +90,7 @@ p {
 
 /* Section for Circle Gallery */
 .circle-container {
-  display: flex;
-  flex-direction: column; /* stack children vertically */
-  align-items: center;    /* center children horizontally */
-  justify-content: center;/* center children vertically if there's extra space */
+  position: center;
   width: 1300px;
   height: 1300px;
   /* border: 1px solid #ddd; */
