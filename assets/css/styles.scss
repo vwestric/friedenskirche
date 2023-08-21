@@ -90,7 +90,7 @@ p {
 
 /* Section for Circle Gallery */
 .circle-container {
-  position: center;
+  position: relative;
   width: 1300px;
   height: 1300px;
   /* border: 1px solid #ddd; */
@@ -142,7 +142,7 @@ p {
 .logo-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;  /* space between images */
+  gap: 50;  /* space between images */
   justify-content: center;  /* center the images if they don't take the full width */
 }
 
